@@ -78,7 +78,11 @@ div:hover {
     background-color: var(--cor4);
 }
 
-a:hover {
+.dia:hover {
+    color: white;
+}
+
+.voltar:hover {
     text-decoration: underline
 }
 
