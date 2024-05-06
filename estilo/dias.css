@@ -69,8 +69,7 @@ div {
 
 main a {
     text-decoration: none;
-    font-weight: bold;
-    color: var(--cor5);
+    color: black;
     border-radius: 2px;
 }
 
@@ -144,4 +143,9 @@ th, td {
 
 .cinza-claro-2 {
     background-color: #D9D9D9;
+}
+
+iframe {
+    display: block;
+    margin: auto;
 }
