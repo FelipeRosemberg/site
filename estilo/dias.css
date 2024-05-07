@@ -132,27 +132,22 @@ th, td {
 }
 
 .cinza-escuro {
-    background-color: #1a5c37;
+    background-color: #999999;
 }
 
 .cinza-medio {
-    background-color: #2fa866;
+    background-color: #B7B7B7;
 }
 
 .cinza-claro-1 {
-    background-color: #3ddc84;
+    background-color: #CCCCCC;
 }
 
 .cinza-claro-2 {
-    background-color: #83e1ad;
+    background-color: #D9D9D9;
 }
 
 iframe {
     display: block;
     margin: auto;
 }
-
---cor1:#83e1ad;
---cor2:#3ddc84;
---cor3:#2fa866;
---cor4:#1a5c37;
