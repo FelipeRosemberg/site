@@ -151,3 +151,9 @@ iframe {
     display: block;
     margin: auto;
 }
+
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
