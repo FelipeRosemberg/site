@@ -157,3 +157,20 @@ video {
     margin: auto;
     width: 250px;
 }
+
+.descanso {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.5em;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 270px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.719);
+}
