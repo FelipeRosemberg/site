@@ -69,6 +69,17 @@ div {
     border-radius: 0px 7px 0px 7px;
 }
 
+.series {
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: var(--cor1);
+    border-radius: 0px 7px 0px 7px;
+}
 main a {
     text-decoration: none;
     color: black;
