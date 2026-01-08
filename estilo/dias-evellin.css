@@ -173,6 +173,12 @@ video {
     width: 250px;
 }
 
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
 .descanso {
     background-color: var(--cor5);
     color: var(--cor1);
