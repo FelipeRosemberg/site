@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+
+    --cor0:#B222CC;
+    --cor1:#9336A3;
+    --cor2:#CF00F5;
+    --cor3:#6D3B75;
+    --cor4:#47324B;
+    --cor5:#322B33;
+
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursiva;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header > h1 {
+    color:white ;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div {
+    text-align: center;
+    width: 90px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: var(--cor1);
+    border-radius: 0px 7px 0px 7px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    border-radius: 2px;
+}
+
+div:hover {
+    background-color: var(--cor4);
+}
+
+.dia:hover {
+    color: white;
+}
+
+a.informacoes {
+    background-color: var(--cor5);
+    color: white;
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.432);
+}
+
+a.voltar {
+    background-color: var(--cor5);
+    color: white;
+    width: 80px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.432);
+}
+
+.voltar:hover {
+    text-decoration: underline
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+button:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
